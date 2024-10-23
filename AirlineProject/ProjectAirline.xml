@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel='tests'>
+  <test thread-count="5" name="Test on Chrome">
+	<parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="seleniumM.AirlineProject.TC_applyCoupon"/>
+      <class name="seleniumM.AirlineProject.TC_SeatSelectionduringbookingprocess"/>
+      <class name="seleniumM.AirlineProject.TC_OneWaySearchFlight"/>
+      <class name="seleniumM.AirlineProject.TC_ValidateforDiffClasses"/>
+      <class name="seleniumM.AirlineProject.TC_RegisterUser"/>
+      <class name="seleniumM.AirlineProject.TC_ValidLogin"/>
+      <class name="seleniumM.AirlineProject.TC_RoundTrip"/>
+      <class name="seleniumM.AirlineProject.TC_DomesticRoundTrip"/>
+      <class name="seleniumM.AirlineProject.TC_MultiplePassengerSeatSelection_Booking"/>
+      <class name="seleniumM.AirlineProject.TC_ValidateflightInformation"/>
+      <class name="seleniumM.AirlineProject.TC_Login_Search_Logout"/>
+      <class name="seleniumM.AirlineProject.TC_Payment"/>
+    </classes>
+  </test> 
+   <test thread-count="5" name="Test on Edge">
+	<parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="seleniumM.AirlineProject.TC_applyCoupon"/>
+      <class name="seleniumM.AirlineProject.TC_SeatSelectionduringbookingprocess"/>
+      <class name="seleniumM.AirlineProject.TC_OneWaySearchFlight"/>
+      <class name="seleniumM.AirlineProject.TC_ValidateforDiffClasses"/>
+      <class name="seleniumM.AirlineProject.TC_RegisterUser"/>
+      <class name="seleniumM.AirlineProject.TC_ValidLogin"/>
+      <class name="seleniumM.AirlineProject.TC_RoundTrip"/>
+      <class name="seleniumM.AirlineProject.TC_DomesticRoundTrip"/>
+      <class name="seleniumM.AirlineProject.TC_MultiplePassengerSeatSelection_Booking"/>
+      <class name="seleniumM.AirlineProject.TC_ValidateflightInformation"/>
+      <class name="seleniumM.AirlineProject.TC_Login_Search_Logout"/>
+      <class name="seleniumM.AirlineProject.TC_Payment"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
