@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Smoke Test">
+	<groups>
+		<run>
+			<include name="smoke"></include>
+			<exclude name="Test Integration"></exclude>
+			<exclude name="system"></exclude>
+		</run>
+	</groups>
+    <classes>
+      <class name="selenium.TestNG.Programs.Grouping_TestNG"/>
+    </classes>
+  </test> <!-- Smoke Test -->
+</suite> <!-- Suite -->
