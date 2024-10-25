@@ -12,9 +12,9 @@ public class LoginToFacebook_RelativeXpath {
 		driver.manage().window().maximize();
 		// relative xpath--> //tagname[@AN ='AV']
 		WebElement username =driver.findElement(By.xpath("//input[@name='email']"));
-		username.sendKeys("8149472499");
+		username.sendKeys("9881469855");
 		WebElement password =driver.findElement(By.xpath("//input[@name='pass']"));
-		password.sendKeys("Swati@215");
+		password.sendKeys("Test@12345");
 		WebElement login =driver.findElement(By.xpath("//button[@name='login']"));
 		login.click();
 		
