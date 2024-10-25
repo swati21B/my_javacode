@@ -23,11 +23,11 @@ WebElement loginButton;
 //Step 2: create separate method for each element located to perform it's action
 public void un()
 {
-	username.sendKeys("8149472499");
+	username.sendKeys("9881469855");
 }
 public void pwd()
 {
-	password.sendKeys("Swati@215");
+	password.sendKeys("Test@12345");
 }
 public void buttonlogin()
 {
