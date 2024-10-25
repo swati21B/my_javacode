@@ -21,7 +21,7 @@ public class AmazonRegist_6SetofValues {
 		Object[][] datainput =new Object[6][3];
 		//Set 1
 		datainput[0][0]="Teena";
-		datainput[0][1]="7391021599";
+		datainput[0][1]="9881469855";
 		datainput[0][2]="Teena@123";
 		//set 2
 		datainput[1][0]="Teena Bodhale";
