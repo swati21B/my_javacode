@@ -17,11 +17,11 @@ public class Login_Amazon_AddToWishList {
 		//WebElement is return type of findElement
 		//WebElement is an interface
 		WebElement username = driver.findElement(By.name("email"));
-		username.sendKeys("7391021594");
+		username.sendKeys("9881469855");
 		WebElement continueButton = driver.findElement(By.id("continue"));
 		continueButton.click();
 		WebElement Password = driver.findElement(By.id("ap_password"));
-		Password.sendKeys("Prisha@07");
+		Password.sendKeys("Test@12345");
 		WebElement SignIn = driver.findElement(By.id("signInSubmit"));
 		SignIn.click();
 		
