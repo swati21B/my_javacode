@@ -15,11 +15,11 @@ public class AmazonLogin {
 		//WebElement is return type of findElement
 		//WebElement is an iterface
 		WebElement username = driver.findElement(By.name("email"));
-		username.sendKeys("7391021594");
+		username.sendKeys("8148666485");
 		WebElement continueButton = driver.findElement(By.id("continue"));
 		continueButton.click();
 		WebElement Password = driver.findElement(By.id("ap_password"));
-		Password.sendKeys("Prisha@07");
+		Password.sendKeys("Test@12345");
 		WebElement SignIn = driver.findElement(By.id("signInSubmit"));
 		SignIn.click();
 		
