@@ -9,8 +9,8 @@ public class LogintoFacebook {
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/login.php/");
 		driver.manage().window().maximize();
-		driver.findElement(By.name("email")).sendKeys("8149472499");
-		driver.findElement(By.name("pass")).sendKeys("Swati@215");
+		driver.findElement(By.name("email")).sendKeys("8148965869");
+		driver.findElement(By.name("pass")).sendKeys("Test@2364");
 		driver.findElement(By.name("login")).click();
 
 	}
