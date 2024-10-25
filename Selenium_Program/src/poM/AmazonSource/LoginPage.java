@@ -22,7 +22,7 @@ public class LoginPage {
 	
 	public void un()
 	{
-		username.sendKeys("swatibodhale215@gmail.com");
+		username.sendKeys("swati12345@gmail.com");
 	}
 	public void contiButton()
 	{
