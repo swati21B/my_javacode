@@ -22,17 +22,17 @@ public Object[][] amazonUNPW()  // Object[][] --> read as object class of two di
 	//create instance 0f object class
 	Object[][] data= new Object[4][2];
 	//set 1
-	data[0][0]="7391021594";
-	data[0][1]="Prisha@07";
+	data[0][0]="9881469855";
+	data[0][1]="Test@1234";
 	//set 2
-		data[1][0]="+917391021594";
-		data[1][1]="Prisha@07";
+		data[1][0]="+919881469855";
+		data[1][1]="Test@12345";
 	//set 3
-		data[2][0]="swatibodhale215@gmail.com";
-		data[2][1]="Prisha@07";
+		data[2][0]="test123@gmail.com";
+		data[2][1]="Test@12345";
 	//set 4
-		data[3][0]="swatibodhale@gmail.com";
-		data[3][1]="Prisha@07";
+		data[3][0]="test123@gmail.com";
+		data[3][1]="Test@12345";
 		return data;
 	
 }
