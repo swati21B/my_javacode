@@ -32,11 +32,11 @@ WebDriver driver;
 	
 	public void AMZ_Registration(WebDriver driver) {
 				
-				name.sendKeys("Swati");
+				name.sendKeys("Tests");
 			
-				mobNumber.sendKeys("7391021594");
+				mobNumber.sendKeys("9881456999");
 			
-				password.sendKeys("Prisha@07");
+				password.sendKeys("Test@1234");
 			
 				VerifyMobileNum.click();
 				Assert.assertEquals(puzzleinputbox.isEnabled(), true, "You are not on puzzle page");
