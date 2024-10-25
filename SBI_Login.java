@@ -13,7 +13,7 @@ public class SBI_Login {
 		WebElement login = driver.findElement(By.linkText("CONTINUE TO LOGIN"));
 		login.click();
 		WebElement Username = driver.findElement(By.name("userName"));
-		Username.sendKeys("SWBodhale");
+		Username.sendKeys("TestABCD");
 		WebElement Password = driver.findElement(By.name("password"));
 		Password.sendKeys("123456789");
 		WebElement button = driver.findElement(By.id("Button2"));
